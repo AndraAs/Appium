@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Error Validation Test(failed)">
+    <classes>
+      <class name="org.rahulshettyacademy.eCommerce_tc_1">
+        <methods>
+          <include name="ConfigureAppium"/>
+          <include name="preSetup"/>
+          <include name="FillFormPositiveFlow"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_1 -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

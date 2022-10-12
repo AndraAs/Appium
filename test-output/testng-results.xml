@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="138634" started-at="2022-10-09T18:16:11Z" finished-at="2022-10-09T18:18:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="138634" started-at="2022-10-09T18:16:11Z" finished-at="2022-10-09T18:18:30Z">
+      <class name="org.rahulshettyacademy.eCommerce_tc_4">
+        <test-method status="PASS" signature="ConfigureAppium()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4@9353778]" name="ConfigureAppium" is-config="true" duration-ms="34948" started-at="2022-10-09T18:16:11Z" finished-at="2022-10-09T18:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4@9353778]" name="preSetup" is-config="true" duration-ms="2004" started-at="2022-10-09T18:16:46Z" finished-at="2022-10-09T18:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="FillForm(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4@9353778]" name="FillForm" duration-ms="46914" started-at="2022-10-09T18:16:48Z" data-provider="getData" finished-at="2022-10-09T18:17:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=peanut, country=Antarctica, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4@9353778]" name="preSetup" is-config="true" duration-ms="1691" started-at="2022-10-09T18:17:35Z" finished-at="2022-10-09T18:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="FillForm(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4@9353778]" name="FillForm" duration-ms="51546" started-at="2022-10-09T18:17:37Z" data-provider="getData" finished-at="2022-10-09T18:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=monkey, country=Argentina, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.rahulshettyacademy.eCommerce_tc_4@9353778]" name="tearDown" is-config="true" duration-ms="1270" started-at="2022-10-09T18:18:28Z" finished-at="2022-10-09T18:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
